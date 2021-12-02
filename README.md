@@ -1,9 +1,9 @@
 # cognitive_analytics
 
 ## setup
-- Python　の仮想環境を構築
+- Python仮想環境ソフトウェアのインストール
 ```
-install virtualenv
+pip install virtualenv
 ```
 - カレントディレクトリで以下のコマンドから仮想環境の有効化
 ```
