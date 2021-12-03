@@ -3,31 +3,32 @@
 # setup
 - Python用仮想環境ソフトウェアのインストール
 ```
-$ pip install virtualenv
+pip install virtualenv
 ```
 
 ## 1. git clone
 ```
-$ git clone fuga
+git clone fuga
 ```
 ## 2. virtualenv構築
 ```
-$ virtualenv .
+virtualenv .
 ```
-## 3. requirement.txtからpipでパッケージを入れる
+## 3. カレントディレクトリで以下のコマンドから仮想環境の有効化
 ```
-$ pip install -r requirements.txt
-```
-## 4. 同期完了
-```
-$ pip list
+source bin/activate
 ```
 
-- カレントディレクトリで以下のコマンドから仮想環境の有効化
+## 4. requirement.txtからpipでパッケージを入れる
 ```
-$ source bin/activate
+pip install -r requirements.txt
 ```
+## 5. 同期完了
+```
+pip list
+```
+
 - 無効化
 ```
-$ deactivate
+deactivate
 ```
